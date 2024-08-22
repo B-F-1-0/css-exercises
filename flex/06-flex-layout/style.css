@@ -18,9 +18,93 @@ button {
   background: #eee;
 }
 
+a:link {
+  color:gray;
+  text-decoration: none;
+}
+
+a:visited {
+  color:gray;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.wholepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left-links {
+  display: flex;
+  gap: 24px;
+  margin:0px;
+  padding:16px;
+}
+
+.right-links {
+  display: flex;
+  gap: 24px;
+  margin:0px;
+  padding:16px;
+}
+
+.footer {
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.content {
+  flex-direction: column;
+  display:flex;
+  justify-content: center;
+}
+
+.input {
+  display:flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.buttons {
+  display:flex;
+  justify-content: center;
+  margin:16px;
+  gap: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
 }
